@@ -1,0 +1,444 @@
+$date
+     Apr 09, 2017       10:29:32
+$end
+
+$version
+ SystemC 2.3.1-Accellera --- Mar 10 2017 09:36:37
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clk       $end
+$var wire    1  aaaab  sensor_via       $end
+$var wire    8  aaaac  semaforo_autoestrada [7:0]  $end
+$var wire    8  aaaad  semaforo_via [7:0]  $end
+$var wire    8  aaaae  estado [7:0]  $end
+$var wire    8  aaaaf  proximo_estado [7:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+0aaaab
+b10 aaaac
+b1 aaaad
+b0 aaaae
+b0 aaaaf
+$end
+
+#2
+1aaaaa
+
+#4
+0aaaaa
+
+#6
+1aaaaa
+
+#8
+0aaaaa
+
+#10
+1aaaaa
+
+#12
+0aaaaa
+
+#14
+1aaaaa
+
+#16
+0aaaaa
+
+#18
+1aaaaa
+
+#20
+0aaaaa
+
+#22
+1aaaaa
+
+#24
+0aaaaa
+
+#26
+1aaaaa
+
+#28
+0aaaaa
+
+#30
+1aaaaa
+
+#32
+0aaaaa
+
+#34
+1aaaaa
+
+#36
+0aaaaa
+
+#38
+1aaaaa
+
+#40
+0aaaaa
+1aaaab
+b1 aaaaf
+
+#42
+1aaaaa
+b0 aaaac
+b1 aaaae
+b10 aaaaf
+
+#44
+0aaaaa
+
+#46
+1aaaaa
+
+#48
+0aaaaa
+
+#50
+1aaaaa
+b1 aaaac
+b10 aaaad
+b10 aaaae
+b11 aaaaf
+
+#52
+0aaaaa
+
+#54
+1aaaaa
+
+#56
+0aaaaa
+
+#58
+1aaaaa
+
+#60
+0aaaaa
+
+#62
+1aaaaa
+
+#64
+0aaaaa
+
+#66
+1aaaaa
+b0 aaaad
+b11 aaaae
+b0 aaaaf
+
+#68
+0aaaaa
+
+#70
+1aaaaa
+
+#72
+0aaaaa
+
+#74
+1aaaaa
+b10 aaaac
+b1 aaaad
+b0 aaaae
+b1 aaaaf
+
+#76
+0aaaaa
+
+#78
+1aaaaa
+
+#80
+0aaaaa
+
+#82
+1aaaaa
+
+#84
+0aaaaa
+
+#86
+1aaaaa
+
+#88
+0aaaaa
+
+#90
+1aaaaa
+b0 aaaac
+b1 aaaae
+b10 aaaaf
+
+#92
+0aaaaa
+
+#94
+1aaaaa
+
+#96
+0aaaaa
+
+#98
+1aaaaa
+b1 aaaac
+b10 aaaad
+b10 aaaae
+b11 aaaaf
+
+#100
+0aaaaa
+
+#102
+1aaaaa
+
+#104
+0aaaaa
+
+#106
+1aaaaa
+
+#108
+0aaaaa
+
+#110
+1aaaaa
+
+#112
+0aaaaa
+
+#114
+1aaaaa
+b0 aaaad
+b11 aaaae
+b0 aaaaf
+
+#116
+0aaaaa
+
+#118
+1aaaaa
+
+#120
+0aaaaa
+0aaaab
+
+#122
+1aaaaa
+b10 aaaac
+b1 aaaad
+b0 aaaae
+
+#124
+0aaaaa
+
+#126
+1aaaaa
+
+#128
+0aaaaa
+
+#130
+1aaaaa
+
+#132
+0aaaaa
+
+#134
+1aaaaa
+
+#136
+0aaaaa
+
+#138
+1aaaaa
+
+#140
+0aaaaa
+
+#142
+1aaaaa
+
+#144
+0aaaaa
+
+#146
+1aaaaa
+
+#148
+0aaaaa
+
+#150
+1aaaaa
+
+#152
+0aaaaa
+
+#154
+1aaaaa
+
+#156
+0aaaaa
+
+#158
+1aaaaa
+
+#160
+0aaaaa
+1aaaab
+b1 aaaaf
+
+#162
+1aaaaa
+b0 aaaac
+b1 aaaae
+b10 aaaaf
+
+#164
+0aaaaa
+
+#166
+1aaaaa
+
+#168
+0aaaaa
+
+#170
+1aaaaa
+b1 aaaac
+b10 aaaad
+b10 aaaae
+b11 aaaaf
+
+#172
+0aaaaa
+
+#174
+1aaaaa
+
+#176
+0aaaaa
+
+#178
+1aaaaa
+
+#180
+0aaaaa
+
+#182
+1aaaaa
+
+#184
+0aaaaa
+
+#186
+1aaaaa
+b0 aaaad
+b11 aaaae
+b0 aaaaf
+
+#188
+0aaaaa
+
+#190
+1aaaaa
+
+#192
+0aaaaa
+
+#194
+1aaaaa
+b10 aaaac
+b1 aaaad
+b0 aaaae
+b1 aaaaf
+
+#196
+0aaaaa
+
+#198
+1aaaaa
+
+#200
+0aaaaa
+
+#202
+1aaaaa
+
+#204
+0aaaaa
+
+#206
+1aaaaa
+
+#208
+0aaaaa
+
+#210
+1aaaaa
+b0 aaaac
+b1 aaaae
+b10 aaaaf
+
+#212
+0aaaaa
+
+#214
+1aaaaa
+
+#216
+0aaaaa
+
+#218
+1aaaaa
+b1 aaaac
+b10 aaaad
+b10 aaaae
+b11 aaaaf
+
+#220
+0aaaaa
+
+#222
+1aaaaa
+
+#224
+0aaaaa
+
+#226
+1aaaaa
+
+#228
+0aaaaa
+
+#230
+1aaaaa
+
+#232
+0aaaaa
+
+#234
+1aaaaa
+b0 aaaad
+b11 aaaae
+b0 aaaaf
+
+#236
+0aaaaa
+
+#238
+1aaaaa
+
